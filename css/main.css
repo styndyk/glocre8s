@@ -57,6 +57,27 @@ input:focus {
 .header__menu__list__item__link {
 	font-size: 25px;
 	line-height: 30px;
+	position: relative;
+}
+
+
+.header__menu__list__item__link::after {
+	content: '';
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  border-radius: 4px;
+  background-color: #000;
+  bottom: -5px;
+  left: 0;
+  transform-origin: right;
+  transform: scaleX(0);
+  transition: transform .3s ease-in-out;
+}
+
+.header__menu__list__item:hover .header__menu__list__item__link::after {
+	transform-origin: left;
+  transform: scaleX(1);
 }
 
 .header__logo a{
@@ -85,6 +106,14 @@ input:focus {
 	letter-spacing: 0.1em;
 }
 
+.header__search__form input[name="search"]:focus {
+	outline: 1px solid #C4C4C4;
+}
+
+.header__search__form input[name="search"]:focus::placeholder {
+	color: rgba(196, 196, 196, 0.288);
+}
+
 .header__search__form input[value="SEARCH"] {
 	position: relative;
 	top: 0;
@@ -96,6 +125,12 @@ input:focus {
 	font-size: 24px;
 	line-height: 28px;
 	letter-spacing: 0;
+	transition: .3s all linear;
+}
+
+.header__search__form input[value="SEARCH"]:hover {
+	cursor: pointer;
+	color: #000;
 }
 
 .header__search__card {
