@@ -190,3 +190,33 @@ input:focus {
 }
 
 /* END Header Styles */
+
+/* Offer Styles */
+.offer {
+	min-height: 100vh;
+	background: url("../img/offer__bg.jpg") no-repeat center center;
+	background-size: cover;
+	padding-left: 90px;
+	padding-top: 157px;
+	margin-bottom: 75px;
+}
+.offer__text {
+	font-size: 50px;
+	line-height: 59px;
+	color: #fff;
+	margin-bottom: 15px;
+}
+.offer__title {
+	color: #fff;
+	font-size: 144px;
+	line-height: 169px;
+}
+
+.offer__button {
+	margin-top: 140px;
+	font-size: 50px;
+	line-height: 59px;
+	padding: 22px 62px 16px;
+}
+
+/* END Offer Styles */
