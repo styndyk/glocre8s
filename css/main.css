@@ -225,6 +225,7 @@ input:focus {
 
 .category {
 	text-align: center;
+	margin-bottom: 90px;
 }
 .category__title {
 	font-size: 48px;
@@ -275,3 +276,68 @@ input:focus {
 }
 
 /* END Category Styles */
+
+
+/* Cards Styles */
+
+.cards {
+	margin-bottom: 125px;
+}
+.cards__title {
+	font-size: 48px;
+	line-height: 56px;
+	text-align: center;
+	letter-spacing: 0.15em;
+	margin-bottom: 100px;
+}
+.cards__items {
+	max-width: 1750px;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.card__items__item {
+	width: 364px;
+	height: 399px;
+	box-shadow: 2px 4px 12px #000000;
+	margin-bottom: 100px;
+	border-radius: 25px;
+	display: flex;
+	flex-direction: column;
+	/* align-items: center; */
+	justify-content: space-around;
+}
+
+
+.card__items__item__img {
+	display: block;
+	max-height: 319px;
+	align-self: center;
+}
+.card__items__item__title, .card__items__item__price {
+	font-size: 18px;
+	line-height: 21px;
+	font-weight: 400;
+	margin-left: 15px;
+}
+
+
+.card__items__item__button {
+	color: #fff;
+	background: rgba(255, 69, 0, 0.84);
+	border-radius: 25px;
+	font-size: 14px;
+	line-height: 16px;
+	text-transform: uppercase;
+	padding: 2px 13px;
+	border: none;
+	align-self: start;
+	margin-left: 15px;
+}
+
+.card__items__item__button:hover {
+	cursor: pointer;
+}
+
+/* END Cards Styles */
