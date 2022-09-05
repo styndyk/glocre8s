@@ -240,7 +240,7 @@ input:focus {
 	margin: 0 auto;
 }
 .category__main__item {
-	min-width: 352px;
+	width: 352px;
 	min-height: 189px;
 	display: flex;
 	align-items: center;
@@ -250,6 +250,10 @@ input:focus {
 	margin-right: 90px;
 	padding: 35px 5px;
 	margin-bottom: 120px;
+}
+
+.category__main__item:nth-child(3n) {
+	margin-right: 0;
 }
 
 .category__main__item svg {
@@ -264,6 +268,10 @@ input:focus {
 	font-size: 36px;
 	line-height: 42px;
 	letter-spacing: 0.1em;
+}
+
+.category__main__item:nth-child(3) .category__main__item__title {
+	letter-spacing: 0.02em;
 }
 
 /* END Category Styles */
