@@ -229,6 +229,7 @@ input:focus {
 }
 .category__title {
 	font-size: 48px;
+	font-weight: 400;
 	line-height: 56px;
 	letter-spacing: 0.15em;
 	margin-bottom: 65px;
@@ -285,6 +286,7 @@ input:focus {
 }
 .cards__title {
 	font-size: 48px;
+	font-weight: 400;
 	line-height: 56px;
 	text-align: center;
 	letter-spacing: 0.15em;
@@ -341,3 +343,99 @@ input:focus {
 }
 
 /* END Cards Styles */
+/* Reviews Styles */
+
+.reviews {
+	max-width: 1520px;
+	margin: 0 auto;
+	margin-bottom: 150px;
+}
+.reviews__title {
+	font-size: 48px;
+	font-weight: 400;
+	line-height: 56px;
+	text-align: center;
+	letter-spacing: 0.15em;
+	margin-bottom: 150px;
+}
+.reviews__items {
+	display: flex;
+	justify-content: center;
+}
+.reviews__items__item {
+	max-width: 635px;
+	margin-right: 100px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.reviews__items__item:last-child {
+	margin-right: 0;
+}
+.reviews__items__item__profile {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 40px;
+}
+.reviews__items__item__profile__img {
+	border-radius: 50px;
+	margin-right: 30px;
+}
+.reviews__items__item__profile__rating {
+	display: flex;
+	flex-direction: column;
+}
+
+.reviews__items__item__profile__rating p {
+	font-size: 24px;
+	line-height: 28px;
+	font-weight: 400;
+	text-align: center;
+	letter-spacing: 0.15em;
+	margin-bottom: 10px;
+}
+
+.reviews__items__item__profile__rating__stars {
+	display: flex;
+	align-items: center;
+}
+
+.reviews__items__item__profile__rating__stars span {
+	margin-left: 10px;
+	font-size: 24px;
+	line-height: 28px;
+	text-align: center;
+	letter-spacing: 0.15em;
+}
+
+.reviews__items__item__main-review {
+	margin-bottom: 40px;
+}
+
+.reviews__items__item__main-review p {
+	text-align: center;
+	font-size: 24px;
+	line-height: 28px;
+	font-weight: 400;
+}
+.reviews__items__item__article {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.reviews__items__item__article__img {
+	margin-right: 40px;
+}
+
+.reviews__items__item__article p {
+	font-size: 24px;
+	line-height: 28px;
+	font-weight: 400;
+	text-align: center;
+	letter-spacing: 0.15em;
+}
+
+/* END Reviews Styles */
