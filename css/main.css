@@ -336,10 +336,12 @@ input:focus {
 	border: none;
 	align-self: start;
 	margin-left: 15px;
+	transition: all .3s linear;
 }
 
 .card__items__item__button:hover {
 	cursor: pointer;
+	color: #000;
 }
 
 /* END Cards Styles */
