@@ -14,7 +14,14 @@
 <body>
 	<header class="header">
 		<div class="header__top">
-			<nav class="header__menu">
+			<a href="javascript:void(0);" onclick="humburger()" class="header__top__humburger">
+				<svg width="29" height="17" viewBox="0 0 29 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<rect width="29" height="2" fill="#050505"/>
+					<rect y="7" width="29" height="2" fill="#050505"/>
+					<rect y="15" width="29" height="2" fill="#050505"/>
+				</svg><!-- Хамбургер для мобільної версії  -->
+			</a>
+			<nav class="header__menu" id="menu">
 				<ul class="header__menu__list">
 					<li class="header__menu__list__item">
 						<a href="#" class="header__menu__list__item__link">
@@ -588,5 +595,7 @@ That brings fulfilment!
 			</div>
 		</div>
 	</footer>
+
+	<script src="./js/main.js"></script>
 </body>
 </html>
