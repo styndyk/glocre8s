@@ -922,6 +922,7 @@ input:focus {
 
 	.category {
 		min-width: 414px;
+		margin-bottom: 40px;
 	}
 
 	.category__title {
@@ -961,6 +962,50 @@ input:focus {
 	.category__main__item__title {
 		font-size: 14px;
 		line-height: 16px;
+	}
+
+	.cards {
+
+	}
+
+	.cards__title {
+		font-size: 14px;
+		line-height: 16px;
+		margin-bottom: 35px;
+	}
+
+	.cards__items {
+		max-width: 414px;
+		justify-content: center;
+	}
+
+	.card__items__item {
+		width: 170px;
+		height: 160px;
+		margin-right: 30px;
+		margin-bottom: 40px;
+	}
+
+	.card__items__item:nth-child(2n) {
+		margin-right: 0;
+	}
+
+	.card__items__item__img {
+		max-width: 150px;
+		max-height: 120px;
+	}
+	.card__items__item__title {
+		font-size: 9px;
+		line-height: 11px;
+	}
+	.card__items__item__price {
+		font-size: 8px;
+		line-height: 9px;
+	}
+	.card__items__item__button {
+		font-size: 5px;
+		line-height: 6px;
+		padding: 3px;
 	}
 	
 }
