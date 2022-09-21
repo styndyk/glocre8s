@@ -902,6 +902,7 @@ input:focus {
 		min-height: 215px;
 		padding-left: 20px;
 		padding-top: 25px;
+		margin-bottom: 40px;
 	}
 
 	.offer__text {
@@ -917,6 +918,49 @@ input:focus {
 		line-height: 16px;
 		margin-top: 10px;
 		padding: 5px 10px;
+	}
+
+	.category {
+		min-width: 414px;
+	}
+
+	.category__title {
+		font-size: 14px;
+		line-height: 16px;
+		margin-bottom: 20px;
+	}
+
+	.category__main {
+		max-width: 414px;
+		justify-content: center;
+	}
+
+	.category__main__item {
+		width: 150px;
+		height: 77px;
+		min-height: 77px; /* Обнулити значення дял мобільної версії */
+		margin-right: 32px;
+		margin-bottom: 26px;
+		padding: 10px 10px;
+	}
+
+	.category__main__item:nth-child(3n) {
+    margin-right: 32px;
+	}
+
+	.category__main__item:nth-child(2n) {
+		margin-right: 0;
+	}
+
+	.category__main__item svg {
+		margin-right: 5px;
+		width: 42px;
+		height: 42px;
+	}
+
+	.category__main__item__title {
+		font-size: 14px;
+		line-height: 16px;
 	}
 	
 }
