@@ -1081,6 +1081,134 @@ input:focus {
 		font-size: 12px;
 		line-height: 14px;
 	}
+
+	.footer {
+		padding: 25px 20px;
+	}
+	.footer__wrapper {
+		max-width: 414px;
+	}
+	.footer__top {
+		flex-wrap: wrap;
+		margin-bottom: 20px;
+	}
+	.footer__top__menu {
+		flex-wrap: wrap;
+	}
+	.footer__top__menu__item {
+		margin-right: 40px;
+		margin-bottom: 30px;
+	}
+	.footer__top__menu__item__title {
+		font-size: 18px;
+		line-height: 21px;
+		text-align: left;
+	}
+	.footer__top__menu__item__list__item__link {
+		font-size: 18px;
+		line-height: 21px;
+	}
+	.footer__top__socials {
+		max-width: 400px;
+	}
+	.footer__top__socials__item {
+		/* margin-right: 40px; */
+	}
+	.footer__top__socials__title {
+		font-size: 18px;
+		line-height: 21px;
+	}
+	.footer__top__socials__icons svg {
+		width: 20px;
+		height: 30px;
+		margin-right: 15px;
+	}
+	.footer__top__socials__icons svg:last-child {
+		margin-right: 0;
+	}
+
+	.footer__signUpForm {
+		max-width: 414px;
+		margin-bottom: 25px;
+		align-items: center;
+	}
+	.footer__signUpForm form {
+		max-width: 414px;
+	}
+	.footer__signUpForm__title {
+		font-size: 24px;
+		line-height: 28px;
+		text-align: center;
+		margin-bottom: 15px;
+	}
+	.footer__signUpForm input[type="email"] {
+		padding: 9px 115px 9px 44px;
+		font-size: 14px;
+		line-height: 18px;
+	}
+	.footer__signUpForm input[type="submit"] {
+		font-size: 18px;
+		line-height: 21px;
+		padding: 5px 6px;
+	}
+	.footer__signUpForm p {
+		font-size: 13px;
+		line-height: 15px;
+	}
+	.footer__signUpForm a::after {
+		height: 1px;
+	}
+
+	.footer__bottom {
+		flex-direction: column-reverse;
+		max-width: 400px;
+		margin-left: 30px;
+	}
+	.footer__bottom__payMethods {
+		margin-bottom: 40px;
+	}
+	.footer__bottom__payMethods__title {
+		font-size: 18px;
+		line-height: 21px;
+		text-align: left;
+		margin-bottom: 15px;
+	}
+	.footer__bottom__payMethods__list__item {
+		margin-right: 20px;
+	}
+	
+	.footer__bottom__payMethods__list__item__link svg {
+		width: 20px;
+		height: 30px;
+	}
+
+	.footer__bottom__links {
+		max-width: 414px;
+	}
+	.footer__bottom__links p {
+		font-size: 14px;
+		line-height: 16px;
+		margin-bottom: 7px;
+	}
+	.footer__bottom__links__list__item {
+		margin-right: 6px;
+		margin-bottom: 5px;
+	}
+	.footer__bottom__links__list__item__link {
+		font-size: 14px;
+		line-height: 16px;
+	}
+	.footer__bottom__links__list__item__link::after {
+		right: -3px;
+		width: 1px;
+	}
+	.footer__bottom__links__list__item__link::before, .footer__bottom__links__list__item__link span::before {
+		height: 1px;
+	}
+	.footer__bottom__links__list__item__link svg {
+		width: 11px;
+		height: 11px;
+	}
 	
 }
 
